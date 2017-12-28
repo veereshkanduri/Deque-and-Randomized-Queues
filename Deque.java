@@ -150,10 +150,6 @@ public class Deque<Item> implements Iterable<Item> {
         System.out.println("After addlast(2)--first item: "+deque.first.item+" last item: "+deque.last.item);
         System.out.println("no of nodes: "+deque.numOfnodes);
 
-        /*System.out.println(deque.removeLast());
-        System.out.println("After removeLast()--first item: "+deque.first.item+" last item: "+deque.last.item);
-        System.out.println("no of nodes: "+deque.numOfnodes);*/
-
         System.out.println(deque.removeFirst());
         System.out.println("After removeFirst()--first item: "+deque.first.item+" last item: "+deque.last.item);
         System.out.println("no of nodes: "+deque.numOfnodes);
